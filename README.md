@@ -13,7 +13,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -25,8 +24,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [QR Code Solution](https://qr-code-component-paula.netlify.app/)
+- Live Site URL: [QR Code Component](hhttps://qr-code-component-paula.netlify.app/)
 
 ## My process
 
@@ -51,4 +50,4 @@ I still want to continue to tighten up the code and make it more responsive.
 ## Author
 
 - Website - [SeePaulaCode](https://www.seepaulacode.me)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/thedoodlebakery)
+- Frontend Mentor - [@thedoodlebakery](https://www.frontendmentor.io/profile/thedoodlebakery)
