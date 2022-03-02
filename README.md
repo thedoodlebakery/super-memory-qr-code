@@ -49,5 +49,5 @@ I still want to continue to tighten up the code and make it more responsive.
 
 ## Author
 
-- Website - [SeePaulaCode](http://www.seepaulacode.me)
+- Website - [SeePaulaCode](http://seepaulacode.me)
 - Frontend Mentor - [@thedoodlebakery](https://www.frontendmentor.io/profile/thedoodlebakery)
