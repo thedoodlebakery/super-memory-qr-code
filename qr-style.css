@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "Outfit Light";
+  src: "./fonts/Outfit/static/Outfit-Light.ttf";
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Outfit Bold";
+  src: "./fonts/Outfit/static/Outfit-Bold.ttf";
+  font-weight: 700;
+}
+
+:root {
+  --main-font-family: "Outfit Light", sans-serif;
+  --bold-main-font-family: "Outfit Bold", sans-serif;
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+  --center-margin: 0 auto;
+  --content-font: 15px;
+}
+
+body {
+  font-family: var(--main-font-family);
+  margin: var(--center-margin);
+  background: var(--light-gray);
+  font-size: var(--content-font);
+  text-align: center;
+}
+
+.qr-code {
+  background: var(--white);
+  padding: 15px;
+  width: 20vw;
+  border-radius: 20px;
+  position: relative;
+  top: 150px;
+  margin: var(--center-margin);
+}
+
+.qr-img {
+  margin: var(--center-margin);
+}
+
+.qr-img img {
+  border-radius: 10px;
+  width: 20vw;
+}
+
+strong {
+  font-family: var(--bold-main-font-family);
+}
+
+.content {
+  color: var(--grayish-blue);
+  padding: 0 10px;
+}
+
+.content :first-child {
+  font-size: 1.5em;
+  color: var(--dark-blue);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-bottom: 20px;
+  position: relative;
+  top: 200px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* CSS Media Queries */
+@media only screen and (min-device-width: 1440px) {
+}
+
+@media only screen and (orientation: landscape) and (min-device-width: 320px) and (max-device-width: 480px) {
+  .qr-code {
+    width: 50vw;
+  }
+
+  .qr-img img {
+    width: 50vw;
+  }
+
+  .content {
+    padding: 0px 5px;
+  }
+
+  .attribution {
+    display: block;
+    position: relative;
+    top: 200px;
+    width: 100%;
+  }
+}
+
+@media only screen and (orientation: portrait) and (min-device-width: 320px) and (max-device-width: 480px) {
+  .qr-code {
+    width: 75vw;
+    top: 50px;
+  }
+
+  .qr-img img {
+    width: 75vw;
+  }
+
+  .content {
+    padding: 0px 5px;
+  }
+  .attribution {
+    display: block;
+    position: relative;
+    top: 100px;
+    width: 100%;
+  }
+}
