@@ -55,10 +55,11 @@ strong {
 .content {
   color: var(--grayish-blue);
   padding: 0 10px;
+  font-size: 0.875em;
 }
 
 .content :first-child {
-  font-size: 1.5em;
+  font-size: 1.25em;
   color: var(--dark-blue);
 }
 .attribution {
